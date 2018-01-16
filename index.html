@@ -20,9 +20,9 @@
     </script>
 
     <script id="recipe-form-partial" type="text/x-handlebars-template">
-      Name: <input type="text" name="name">
-      Description: <input type="textarea" name="description">
-      Ingredients 1:  <input type="textarea" name="description">
+      Name: <input type="text" id="name" value="{{name}}">
+      Description: <input type="textarea" id="description" value="{{description}}">
+      Ingredients 1:  <input type="text" id="ingredients" value="{{ingredients}}">
     </script>
     <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
     <script src="index.js"></script>
