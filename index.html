@@ -10,7 +10,10 @@
     <main id="main">
     </main>
     <script id="recipe-form-template" type="text/x-handlebars-template">
-      <form onsubmit="createRecipe();return false;">
+      <form id="recipe-form" onsubmit="createRecipe();return false;">
+        Name: <input type="text" name="name">
+        Description: <input type="textarea" name="description">
+        Ingredients 1:  <input type="textarea" name="description">
       </form>
     </script>
     <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
